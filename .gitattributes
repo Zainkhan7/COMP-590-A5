@@ -1,3 +1,4 @@
+*.dylib filter=lfs diff=lfs merge=lfs -text
 /Assignment[[:space:]]5/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
 /Assignment[[:space:]]5/Library/Artifacts/01/011410dd465c1604da694558e3303695 filter=lfs diff=lfs merge=lfs -text
 /Assignment[[:space:]]5/Library/Artifacts/02/02d1cc1b91ef83721dbaf60ee9610a8f filter=lfs diff=lfs merge=lfs -text
