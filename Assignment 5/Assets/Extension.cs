@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.PlasticSCM.Editor.WebApi;
-using Unity.VisualScripting;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class Extension : MonoBehaviour
 {
     public GameObject blade;
@@ -15,7 +12,6 @@ public class Extension : MonoBehaviour
     float saberScale = 0;
     float x= 0;
     float z = 0;
-
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +27,9 @@ public class Extension : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        AudioSource audio = GetComponent<AudioSource>();
         if(Input.GetKeyDown(KeyCode.Space)){
+            audio.Play();
             interpolationValue = isOn ? -Mathf.Abs(interpolationValue):
                                         Mathf.Abs(interpolationValue);
         }
