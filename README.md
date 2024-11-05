@@ -6,4 +6,4 @@ Spacebar is to retract lightsaber as per assignment instructions. There are diff
 Lightsaber Start SOund: https://pixabay.com/sound-effects/lightsaber-ignition-6816/
 LightSaber Swing SOund: https://pixabay.com/sound-effects/swing3-94210/
 
-Inspiration for stamina system and some help with implementation logic from this tutorial: https://medium.com/@wesley.n.campbell/adding-a-recharging-stamina-meter-in-unity-2fe8c20998f7
+Inspiration for stamina system and some help with implementation logic from these tutorials: https://medium.com/@wesley.n.campbell/adding-a-recharging-stamina-meter-in-unity-2fe8c20998f7,  https://medium.com/@dnwesdman/stamina-system-in-unity-8150293151b5
